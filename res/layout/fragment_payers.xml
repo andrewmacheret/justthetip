@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/payer_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <Button
+            android:id="@+id/add_payer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addPayer"
+            android:text="@string/add_payer" />
+
+        <Button
+            android:id="@+id/remove_payer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/add_payer"
+            android:layout_below="@+id/add_payer"
+            android:enabled="false"
+            android:onClick="removePayer"
+            android:text="@string/remove_payer" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/remove_payer"
+            android:layout_below="@+id/remove_payer"
+            android:onClick="next"
+            android:text="@string/next" />
+    </RelativeLayout>
+
+</ScrollView>

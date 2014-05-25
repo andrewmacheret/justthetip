@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Just The Tip</string>
+    <string name="action_settings">Settings</string>
+    <string name="next">Next</string>
+    <string name="title_activity_payers">Payers</string>
+    <string name="add_payer">Add Payer</string>
+    <string name="remove_payer">Remove Payer</string>
+    <string name="title_activity_items">Receipt Items</string>
+    <string name="add_item">Add Item</string>
+    <string name="remove_item">Remove Item</string>
+    <string name="title_activity_tip">Tip</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Tax</string>
+    <string name="total">Total</string>
+    <string name="default_total">$XXX.YY</string>
+    <string name="tax_hint">8.5</string>
+    <string name="percent">%</string>
+    <string name="title_activity_tax">Tax</string>
+    <string name="exit">Exit</string>
+    <string name="default_tip">18</string>
+    <string name="default_tip_text">Default Tip</string>
+    <string name="total_with_tip">Total w/ Tip</string>
+    
+</resources>
